@@ -1,8 +1,8 @@
 import { generatePageUrl } from "./utils";
 
 export const BASE_URL = "/";
-export const PRODUCTS_PER_PAGE = 6;
-export const SUPPORT_EMAIL = "support@example.com";
+export const PRODUCTS_PER_PAGE = 24;
+export const SUPPORT_EMAIL = "support@zeddle.ml";
 export const PROVIDERS = {
   BRAINTREE: {
     label: "Braintree",
@@ -24,22 +24,22 @@ export const STATIC_PAGES = [
 export const SOCIAL_MEDIA = [
   {
     ariaLabel: "facebook",
-    href: "https://www.facebook.com/mirumeelabs/",
+    href: "https://www.facebook.com/Mwapsam/",
     path: require("../images/facebook-icon.svg"),
   },
   {
     ariaLabel: "instagram",
-    href: "https://www.instagram.com/mirumeelabs/",
+    href: "https://www.instagram.com/Mwapsam/",
     path: require("../images/instagram-icon.svg"),
   },
   {
     ariaLabel: "twitter",
-    href: "https://twitter.com/getsaleor",
+    href: "https://twitter.com/zedle",
     path: require("../images/twitter-icon.svg"),
   },
   {
     ariaLabel: "youtube",
-    href: "https://www.youtube.com/channel/UCg_ptb-U75e7BprLCGS4s1g/videos",
+    href: "https://www.youtube.com/channel/zedle/videos",
     path: require("../images/youtube-icon.svg"),
   },
 ];
